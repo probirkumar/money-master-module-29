@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(85, 178, 231);
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.money-master-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.income-wrapper h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.image-wrapper {
+    flex: 0 0 50%;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.income-wrapper {
+    flex: 0 0 50%;
+    padding: 0 50px;
+}
+
+.income {
+    margin: 30px 0;
+}
+
+.input-style {
+    text-align: center;
+    padding: 15px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    background-color: #e4dada4f;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculate-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
